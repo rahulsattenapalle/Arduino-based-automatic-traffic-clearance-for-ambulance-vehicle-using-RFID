@@ -1,0 +1,38 @@
+# Arduino Based Automatic Traffic Clearance for Ambulance Using RFID
+
+## 🔧 Project Overview:
+This project aims to provide automatic traffic signal clearance for ambulances using RFID technology. The system identifies the ambulance and automatically turns the traffic signal green in its path to ensure quick and safe passage.
+
+## Working Principle:
+- Each ambulance is equipped with an RFID tag.
+- At traffic junctions, an RFID reader scans for approaching ambulances.
+- When a valid tag is detected, the signal immediately turns green in the ambulance’s direction.
+- After the ambulance passes, the system restores normal traffic operation.
+
+## Components Used:
+- Arduino UNO
+- RFID Reader (RC522)
+- RFID Tags
+- Traffic Light LEDs (Red, Yellow, Green)
+- Buzzer
+- Jumper Wires
+- Breadboard
+
+## Technologies Used:
+- Embedded C Programming
+- Arduino IDE
+- Serial Monitor (for debugging)
+
+## Features:
+- Real-time traffic clearance
+- Minimizes ambulance delay
+- Simple and cost-effective
+
+## Future Scope:
+- Integration with GPS for live tracking
+- Centralized traffic control system connectivity
+
+---
+
+**Project Developed By:**  
+**Rahul Sattenapalle**
